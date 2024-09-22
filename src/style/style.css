@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    width: 1140px;
+    margin: 0 auto
+}
+
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+
+.title{
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.title__colored{
+    color: #F9BF3B;
+    font-size: 41px;
+    line-height: 41px;
+    margin-bottom: 12px;
+}
+
+.title__big{
+    font-size: 80px;
+    line-height: 80px;
+    color: #FFFF;
+    margin-bottom: 12px;
+}
+
+
+.promo{
+    background: url("../icons/MainBig.jpg")center center/ cover no-repeat;
+    padding-bottom: 53px;
+    padding-top: 22px;
+}
+
+.promo__text{
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFF;
+    margin-bottom: 50px;
+    margin-top: 20px
+
+}
+
+.promo__text span{
+    color: #F9BF3B;
+    text-transform: uppercase;
+}
+
+
+.auth{
+    background: linear-gradient(0deg, #FF4D00 0%, #FEB05D 100%);
+    cursor: pointer;
+    outline: none;
+    border: none;
+    width: 315px;
+    height: 72px;
+    border-radius: 4px 0px 0px 0px;
+    margin: 0 auto;
+    display: block;
+    color: #FFFF;
+    font-size: 21px;
+    text-transform: uppercase;
+}
+
+.promo__more-text{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 17.58px;
+    text-align: center;
+    color: #FFFF;
+    text-transform: uppercase;
+    margin-top: 75px;
+}
+
+.promo__more-img{
+    margin: 10px auto 0 auto;
+    display: block;
+    cursor: pointer;
+}
+
+.logo__text{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 13px
+}
+
+.logo__img{
+    display: block;
+    margin: 0 auto
+}
