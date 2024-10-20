@@ -103,3 +103,59 @@ body{
     display: block;
     margin: 0 auto
 }
+
+.intensive{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.intensive__item{
+    width: 360px;
+}
+
+.intensive__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.divider{
+    width: 220px;
+    height: 7px;
+    background-color: #F9BF3B;
+    margin: 0 auto 0;
+}
+
+.intensive__title{
+    color: #252525;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 35px;
+    text-align: center;    
+    margin-bottom: 14px;
+
+}
+
+.intensive__subtitle{
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: center;
+    color: #4A4A4A;
+    margin-top: 15px;
+    margin-bottom: 42px;
+}
+
+
+.intensive__text{
+
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 15px;
+    color: #4A4A4A;
+}
+
+.intensive__img{
+    width: 100%;
+}
