@@ -159,3 +159,111 @@ body{
 .intensive__img{
     width: 100%;
 }
+
+
+.info{
+    background-color: #0f0b0b;
+    padding-bottom: 140px;
+    padding-top: 100px;
+    position: relative;
+}
+
+
+.info__title{
+    text-align: right;
+    margin-bottom: 16px;
+    color: #F9BF3B;
+    ;
+}
+
+.info__text{
+    text-align: right;
+    padding-left: 390px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19px;
+    margin-bottom: 15px;
+    color: #FFFFFF;
+    z-index: 2;
+    position: relative;
+}
+
+.info__text.medium{
+    font-weight: 500;
+}
+
+
+.info__img{
+    position: absolute;
+    z-index: 1;
+    bottom: 20px;
+}
+
+
+
+.training__expl{
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+
+}
+
+.training__items{
+    display: flex;
+    justify-content: space-between
+    ;
+}
+
+
+.training__divider{
+    width: 220px;
+    height: 7px;
+    background-color: #F9BF3B;
+    margin: 0 auto 0;
+    margin-bottom: 40px;
+}
+
+.training__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.training{
+    background: url("../icons/Bg.png")center center/ cover no-repeat;
+    color: #EFEFEF;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: center;
+    padding-top: 78px;
+    padding-bottom: 121px;
+}
+
+/* 18 */
+
+
+.present__text{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 45px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+
+.present__img{
+    width: 155px;
+    margin: 0 auto 0;
+    align-items: center;
+    display: flex;
+    margin-bottom: 80px;
+}
+
+.present{
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
