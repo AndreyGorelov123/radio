@@ -17,7 +17,7 @@
 <body>
     <main>
 
-        <section class="promo">
+        <section class="promo" id="promo">
             <div class="container">
                 <div class="logo">
                     <img class="logo__img" src="src/icons/Logo.svg" alt="radio">
@@ -33,12 +33,13 @@
                     for success? Find out at the upcoming two-day <span>FREE</span> intensive!</p>
                 <button class="auth">Sign up for free</button>
                 <div class="promo__more-text">To learn more</div>
-                <img class="promo__more-img" src="src/icons/DownIcon.svg" alt="arrow down">
+            
+                <img id="scroll__button" class="promo__more-img" src="src/icons/DownIcon.svg" alt="arrow down">
             </div>
         </section>
 
 
-        <section class="intensive">
+        <section class="intensive" id="intensive">
             <div class="container">
                 <h2 class="title intensive__title">What awaits you in our intensive?</h2>
                 <div class="divider"></div>
@@ -109,13 +110,51 @@
                 <div class="training__divider"></div>
                 <div class="training__wrapper">
 
-                    <div class="training__items">
-                        <img src="src/icons/AfterItemRadio.svg" alt="radionCircleImg">
-                        <img src="src/icons/AfterItemCMD.svg" alt="cmdCircleImg">
-                        <img src="src/icons/AfterItemDiagrama.svg" alt="diagrammaCircleImg">
-                        <img src="src/icons/AfterItemTeam.svg" alt="teamCircleImg">
-                        <img src="src/icons/AfterItemWallet.svg" alt="walletCircleImg">
+                    <div class="training__item">
+                        <div class="training__round">
+                            <img class="training__img" src="src/icons/radio.svg" alt="radionCircleImg">
+                        </div>
+                        <div class="training__text">
+                            Create your own radio and website
+                        </div>
                     </div>
+
+                    <div class="training__item">
+                        <div class="training__round">
+                            <img class="training__img" src="src/icons/optimization.svg" alt="optCircleImg">
+                        </div>
+                        <div class="training__text">
+                            Optimize them correctly
+                        </div>
+                    </div>
+
+                    <div class="training__item">
+                        <div class="training__round">
+                            <img class="training__img" src="src/icons/chart.svg" alt="chartCircleImg">
+                        </div>
+                        <div class="training__text">
+                            Provide them with slow but sure growth to the TOP
+                        </div>
+                    </div>
+
+                    <div class="training__item">
+                        <div class="training__round">
+                            <img class="training__img" src="src/icons/people.svg" alt="teamCircleImg">
+                        </div>
+                        <div class="training__text">
+                            Achieve a stable increase in visitors
+                        </div>
+                    </div>
+
+                    <div class="training__item">
+                        <div class="training__round">
+                            <img class="training__img" src="src/icons/wallet.svg" alt="walletCircleImg">
+                        </div>
+                        <div class="training__text">
+                            Receive tangible profits
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </section>
@@ -123,16 +162,32 @@
         <section class="present">
             <div class="container">
                 <img class="present__img" src="src/icons/present.png" alt="gift">
-                <h3 class="present__text">Bonuses and gifts are provided for all intensive participants. Click the button below,
+                <h3 class="present__text">Bonuses and gifts are provided for all intensive participants. Click the
+                    button below,
                     take part in the webinars and collect your prize upon completion of the training!
                 </h3>
-                <button class="auth">sign up for free</button>
+                <button id="open__Model__Button" class="auth">sign up for free</button>
             </div>
         </section>
 
 
 
     </main>
+
+
+
+    <div id="model" class="model">
+        <div class="model__content">
+            <h1>Register intensive</h1>
+            <button id="close__model" class="close__model">X</button>
+        </div>
+    </div>
+
+    <div id="to__top__button" class="to__top__button">
+        <img src="src/icons/UpIcon.svg" alt="">
+    </div>
+
+    <script src="src/js/script.js"></script>
 </body>
 
 </html>
