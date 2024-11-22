@@ -1,5 +1,6 @@
 const scrollButton = document.getElementById("scroll__button")
 const intensive = document.getElementById("intensive")
+const promo = document.getElementById("promo")
 
 function onClick(){
     intensive.scrollIntoView({
@@ -44,3 +45,14 @@ function closeModelButton(){
 }
 
 closeModel.addEventListener("click", closeModelButton)
+
+
+//
+
+function handlerClickScrollUp(){
+    promo.scrollIntoView({
+        behavior: "smooth"
+    })
+}
+
+upButton.addEventListener("click", handlerClickScrollUp)
