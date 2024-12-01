@@ -44,7 +44,12 @@ function closeModelButton(){
     model.style.display = "none"
 }
 
-closeModel.addEventListener("click", closeModelButton)
+
+if (closeModel) {
+    closeModel.addEventListener("click", closeModelButton)
+}
+
+
 
 
 //

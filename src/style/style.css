@@ -7,7 +7,9 @@
 
 .container{
     max-width: 1140px;
-    margin: 0 auto
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 
@@ -35,6 +37,7 @@ body{
     justify-content: center;
     display: none;
     cursor: pointer;
+    z-index: 4;
 
 }
 
@@ -213,7 +216,15 @@ body{
     position: absolute;
     z-index: 1;
     bottom: 20px;
+    max-width: 615px;
+    max-height: 350px;
 }
+
+.info__img  img{
+    width: 100%;
+}
+
+
 
 
 
@@ -377,6 +388,12 @@ body{
 .webinar__img{
     margin: 0 auto;
     display: block;
+    max-width: 500px;
+    max-height: 250px;
+}
+
+.webinar__img img {
+    width: 100%
 }
 
 /*  */
@@ -416,5 +433,63 @@ body{
 }
 
 
+/* Большие экраны (настольные компьютеры) */
+@media screen and (max-width: 1200px) {
+    
+}
+
+/* Средние экраны (ноутбуки и планшеты в горизонтальной ориентации) */
+@media screen and (max-width: 767px) {
+    .info__text {
+        padding-left: 0px;
+    }
+    
+}
 
 
+/* Очень маленькие экраны (мобильные устройства) */
+@media screen and (max-width: 650px) {
+    .training__wrapper{
+        display:block;
+    }
+    .training__item{
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    
+    .info__text{
+        padding-left: 0px;
+    }   
+
+    .intensive__wrapper{
+        display: block;
+    }
+
+    .intensive__item{
+        margin: 0 auto 30px auto;
+        max-width: 100%;
+    }
+}
+
+
+/* Очень маленькие экраны (мобильные устройства) */
+@media screen and (max-width: 420px) {
+
+.title__colored {
+
+        font-size: 30px;
+    }
+
+    .title__big {
+        font-size: 45px;
+    }
+
+
+    .promo__text {
+        font-size: 17px;
+    }
+
+    .training__item {
+        max-width: 100%;
+    }
+}
